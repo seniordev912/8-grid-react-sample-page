@@ -1,0 +1,181 @@
+.footer{
+    font-family: 'Fira Sans',sans-serif;
+    font-weight: 400;
+    background: #242526;
+    float: left;
+    padding: 40px 0;
+    width: 100%;
+}
+
+.footer-content{
+    display: grid;
+    grid-template-columns: 33.33% auto;
+    color: white;
+}
+
+
+.footer .main-content{
+    padding: 0 40px 20px 40px;
+}
+
+.footer-content h5 {
+    font-family: Merriweather,serif;
+    color: #fcfcfc;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: .02em;
+    margin: 0px;
+}
+
+h5 em{
+    color: #f35597;
+    font-style: normal;
+}
+
+.footer-menu a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 18px;
+    color: #fcfcfc;
+}
+
+
+.footer-menu a:hover{
+    text-decoration: underline;
+}
+
+.socail-icon{
+    margin-top: 24px;
+}
+
+
+.socail-icon a{
+    color: #fcfcfc;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.copyright{
+    border-top: 2px solid #555758;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 40px;
+}
+
+.copyright>div:first-child{
+    justify-self: left;
+}
+
+.copyright>div:nth-child(2){
+    justify-self: right;
+}
+
+
+.copyR_box {
+    font-size: 12px;
+    line-height: 14px;
+    color: #b3b1b4;
+}
+
+.copyR_box a{
+    color: #b3b1b4;
+    text-decoration: none;
+}
+
+.copyR_box .heart{
+    color: red;
+}
+
+.memberOf_box em{
+    font-size: 12px;
+    line-height: 14px;
+    color: #b3b1b4;
+}
+
+.verma_icon{
+    color: white;
+    font-size: 24px;
+}
+
+.report_listing_con{
+    margin: 32px 0 32px 0;
+}
+
+
+.verma_ic{
+    padding: 8px;
+    font-size: 32px;
+    display: none;
+    color: white;
+}
+
+.angery{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mobile-social{
+    display: none;
+}
+
+.mobile-social a{
+    color: white;
+    
+}
+@media (max-width: 576px)
+{
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-content ul{
+        padding: 0px;
+    }
+
+    .content{
+        width: 100% !important;
+    }
+
+    .mup_filter_box{
+        flex-direction: column;
+    }
+
+    .qty_edit,.calendar{
+        margin-left: 0px;
+        justify-content: center;
+    }
+
+    .footer-content h5{
+        text-align: center;
+    }
+
+    .copyright{
+        display: block;
+        text-align: center;
+    }
+
+    .verma_icon{
+        display: none;
+    }
+
+    .verma_ic{
+        display: block;
+        text-align: center;
+    }
+
+    .socail-icon{
+        text-align: center;
+        display: none;
+    }
+
+    .mobile-social{
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+}
+

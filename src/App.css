@@ -1,0 +1,167 @@
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+
+html body{
+  overflow-x: hidden;
+}
+
+img{
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+ul{
+  list-style-type: none;
+}
+
+
+.container {
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1376px;
+}
+
+
+.header{
+  padding: 8px 0 0 0;
+  width: 100%;
+}
+
+
+.header .container{
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 40% 40%;
+  column-gap: 8px;
+  padding: 8px;
+}
+
+
+.logo-serch{
+  display: grid;
+  align-items: center;
+  column-gap: 8px;
+  grid-template-columns: 24% 64%;
+}
+
+
+.search{
+  width: 80%;
+  height: 8px !important;
+}
+
+
+.MuiFormControl-root{
+  vertical-align: unset !important;
+}
+
+
+.nav-menu ul li a{
+    color: #242526;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0;
+    line-height: 16px;
+    width: max-content;
+}
+
+.nav-menu ul>li:last-child a{
+  color: #574b90;
+}
+
+
+.nav-menu ul li a:hover{
+  font-weight: 700;
+}
+
+
+.nav-menu>ul {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 40%;
+  justify-items: end;
+  padding: 0px;
+}
+
+
+.Eur{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.nav-menu .dropdown{
+  position: relative;
+}
+
+
+.nav-menu .menu_list{
+  position: absolute;
+  flex-direction: column;
+  background-color: white;
+  display: none;
+  z-index: 99999;
+  width: 240px;
+  padding: 8px;
+  animation: menu 1s ease;
+  box-shadow: rgba(25, 28, 31, 0.04) 0px 8px 16px, rgba(25, 28, 31, 0.04) 0px -1px 0px;
+}
+
+
+@keyframes menu{
+  from {opacity: 0;}
+  to{opacity: 1;}
+}
+
+
+.nav-menu .dropdown:hover .menu_list{
+  display: flex;
+}
+
+
+.menu_list li{
+  padding: 8px;
+  cursor: pointer;
+  color: black;
+}
+
+
+.nav-menu .dropdown>ul>li{
+  width: max-content;
+}
+
+.react-images__blanket{
+  background-color: black !important;
+  z-index: 999999999;
+}
+
+
+@media (max-width:576px){
+  .header .container{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .logo-serch{
+    grid-template-columns: 25% 75%;
+  }
+
+  .nav-menu>ul{
+    justify-items: center;
+  }
+
+  .header,.content1{
+    display: none;
+  }
+
+}
+
+
