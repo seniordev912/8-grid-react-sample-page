@@ -53,6 +53,8 @@ export class Footer extends Component {
                             <div className="copyR_box"> 
                                 <p><a href="https://www.cuddlynest.com/">CuddlyNest</a> © 2020.</p>
                                 <p>Made with <FavoriteRoundedIcon className="heart" /> from Chicago</p> 
+								<p>Made with <FavoriteRoundedIcon className="heart" /> from Chicago</p> 
+								<p>Made with <FavoriteRoundedIcon className="heart" /> from Chicago</p> 
                             </div>
                             <div className="memberOf_box"> 
                                 <em>CuddlyNest is a member of</em><span className="verma_icon"> VRMA</span> 
