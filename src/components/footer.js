@@ -22,6 +22,9 @@ export class Footer extends Component {
                                         <a href="https://www.facebook.com/CuddlyNest"><FacebookIcon /></a>
                                         <a href="https://www.instagram.com/cuddlynest/"><InstagramIcon /></a>
                                         <a href="https://www.pinterest.com/CuddlyNest"><PinterestIcon /></a>
+										<a href="https://www.pinterest.com/CuddlyNest"><PinterestIcon /></a>
+										<a href="https://www.pinterest.com/CuddlyNest"><PinterestIcon /></a>
+										<a href="https://www.pinterest.com/CuddlyNest"><PinterestIcon /></a>
                                     </div>
                                 </div>
                                 <div className="angery">
